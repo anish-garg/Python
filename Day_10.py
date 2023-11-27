@@ -87,7 +87,7 @@ def calculator():
         answer = calculation_function(n1,n2)
         print(f"{n1} {operation} {n2} = {answer}")
         
-        cont = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation:  ")
+        cont = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation: ")
         if cont == 'y':
             n1 = answer
         elif cont == "n":
