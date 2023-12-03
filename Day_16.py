@@ -9,4 +9,10 @@ my_screen = Screen()
 # print(my_screen.canvheight) 
 my_screen.exitonclick()
 
-
+# To install packages use pip install <package name>
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("Pokemon Name",["Pikachu", "Squirtle", "Charmander"])
+table.add_column("Type",["Electric", "Water", "Fire"])
+table.align = "l"
+print(table)
